@@ -73,7 +73,6 @@ function App() {
         <div style={styles.container}>
             <h2>QR Code Scanner</h2>
             <QrScanner onDecode={onScan} onError={onError}/>
-            <Button onClick={handleOpen}>Open modal</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
